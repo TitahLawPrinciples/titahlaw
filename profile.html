@@ -1,28 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Profile - Titah Law</title>
+  <title>Founder Profile - Titah Law</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    .profile-container {
+
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+
+    nav {
+      background: #000;
+      padding: 15px;
       text-align: center;
-      padding: 40px;
     }
 
-    .profile-container img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
+    nav a {
+      color: #d4af37;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #000000, #1a1a1a);
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #ccc;
+      letter-spacing: 2px;
+    }
+
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+      gap: 50px;
+    }
+
+    .profile-image img {
+      width: 300px;
+      height: 300px;
       object-fit: cover;
-      border: 4px solid #000;
+      border-radius: 10px;
+      border: 3px solid #d4af37;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
     }
 
-    .bio {
-      max-width: 700px;
-      margin: 30px auto;
-      text-align: justify;
-      line-height: 1.8;
+    .profile-content {
+      max-width: 600px;
     }
+
+    .profile-content h2 {
+      color: #d4af37;
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    .profile-content h4 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #aaa;
+      letter-spacing: 1px;
+    }
+
+    .profile-content p {
+      line-height: 1.8;
+      margin-top: 20px;
+      color: #ddd;
+      text-align: justify;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
   </style>
 </head>
 <body>
@@ -37,38 +114,38 @@
 </nav>
 
 <header>
-  <h1>Founder Profile</h1>
-  <p>Leadership Built on Principle</p>
+  <h1>Founder & Principal Counsel</h1>
+  <p>Integrity • Authority • Excellence</p>
 </header>
 
-<section class="profile-container">
+<section class="profile-section">
 
-  <!-- Ganti foto.jpg dengan nama file foto Anda -->
-  <img src="foto.jpg" alt="Founder Photo">
+  <div class="profile-image">
+    <img src="foto.jpg" alt="Founder Photo">
+  </div>
 
-  <h2>Nama Lengkap Anda</h2>
-  <p><strong>Advocate & Legal Consultant</strong></p>
+  <div class="profile-content">
+    <h2>ADV Mandala Ade Putra, S.H.</h2>
+    <h4>Advocate & Legal Strategist</h4>
 
-  <div class="bio">
     <p>
-      Nama Anda adalah seorang praktisi hukum yang memiliki komitmen
-      kuat terhadap keadilan, integritas, dan profesionalisme.
-      Berpengalaman dalam bidang litigasi, hukum korporasi,
+      Seorang Advokad dengan komitmen tinggi terhadap integritas,
+      profesionalisme, dan keberanian dalam menegakkan keadilan.
+      Memiliki pengalaman dalam litigasi, hukum korporasi,
       serta penyelesaian sengketa strategis.
     </p>
 
     <p>
-      Dengan latar belakang pendidikan hukum dan pengalaman
-      dalam berbagai penanganan perkara, beliau berfokus
-      pada perlindungan hak klien dan penyelesaian hukum
-      yang efektif serta berkeadilan.
+      Fokus utama praktik adalah memberikan perlindungan hukum yang kuat,
+      solusi strategis yang presisi, serta pendekatan hukum yang elegan
+      dan berorientasi pada hasil.
     </p>
 
     <p>
-      Prinsip utama dalam praktik hukum adalah
-      menjaga integritas, independensi, dan keberanian
-      dalam menegakkan kebenaran.
+      Prinsip utama: Hukum bukan sekadar norma, tetapi kehormatan
+      yang harus dijaga dengan integritas tanpa kompromi.
     </p>
+
   </div>
 
 </section>
