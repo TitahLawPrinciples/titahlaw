@@ -1,41 +1,84 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
 }
 
 nav {
-  background: #111;
-  padding: 15px;
+  background: #0d0d0d;
+  padding: 20px;
   text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
+  color: #d4af37;
+  margin: 0 20px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 nav a:hover {
-  color: gold;
+  color: white;
 }
 
 header {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 120px 20px;
   text-align: center;
-  padding: 60px 20px;
-  background: #f4f4f4;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 20px;
+  color: #d4af37;
 }
 
 section {
-  padding: 40px 20px;
-  max-width: 900px;
+  padding: 60px 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
+h2 {
+  color: #0d0d0d;
+  margin-bottom: 20px;
+}
+
+button, .btn {
+  background: #d4af37;
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #b9972e;
+}
+
 footer {
-  background: #111;
-  color: white;
+  background: #0d0d0d;
+  color: #aaa;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
