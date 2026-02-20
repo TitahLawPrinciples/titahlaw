@@ -39,4 +39,5 @@ nav a{display:block;margin:5px 0}
 © 2026 Titah Law Principles
 </footer>
 </body>
+
 </html>
