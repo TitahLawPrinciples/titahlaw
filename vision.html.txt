@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visi & Misi - Titah Law Principles</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;color:#111;background:#fff}
+header{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;background:#000;color:#fff}
+header img{height:60px}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:bold}
+nav a:hover{color:#E10600}
+section{padding:60px 20px;max-width:800px;margin:auto}
+footer{padding:20px;text-align:center;background:#000;color:#fff;font-size:0.9em}
+@media(max-width:768px){
+header{flex-direction:column;align-items:flex-start}
+nav{margin-top:10px}
+nav a{display:block;margin:5px 0}
+}
+</style>
+</head>
+<body>
+<header>
+<img src="https://example.com/logo.png" alt="Titah Law Principles Logo">
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">Tentang</a>
+<a href="vision.html">Visi & Misi</a>
+<a href="contact.html">Kontak</a>
+</nav>
+</header>
+
+<section>
+<h1>Visi & Misi</h1>
+
+<h3>Visi</h3>
+<p>Menjadi lembaga hukum independen yang berperan dalam edukasi, penelitian, dan kontrol kebijakan publik secara profesional, menjaga supremasi hukum dan konstitusi.</p>
+
+<h3>Misi</h3>
+<ul>
+<li>Menyebarkan edukasi hukum yang mudah dipahami masyarakat</li>
+<li>Mendorong akuntabilitas dan transparansi kebijakan</li>
+<li>Mengembangkan pemikiran hukum berbasis konstitusi</li>
+<li>Menghadirkan analisis hukum yang independen dan akurat</li>
+</ul>
+</section>
+
+<footer>
+© 2026 Titah Law Principles
+</footer>
+</body>
+</html>
 
